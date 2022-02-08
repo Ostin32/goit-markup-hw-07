@@ -4,7 +4,7 @@
   padding-top: 94px;
 }
 
-.about-title {
+.about__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -14,7 +14,7 @@
   margin-bottom: 46px;
 }
 
-.about-team {
+.about__team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -36,7 +36,7 @@
   margin-left: -30px;
 }
 
-.about-item {
+.about-list__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -52,15 +52,15 @@
   justify-content: center;
 }
 
-.team-social-item {
+.social__item {
   list-style-type: none;
 }
 
-.team-social-item + .team-social-item {
+.social__item + .social__item {
   margin-left: 10px;
 }
 
-.team-social-link {
+.social__link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -72,17 +72,17 @@
   &:focus {
     background-color: var(--accent-color);
   }
-  &:hover .team-social-icon,
-  &:focus .team-social-icon {
+  &:hover .social__icon,
+  &:focus .social__icon {
     fill: #ffffff;
   }
 }
 
-.team-social-icon {
+.social__icon {
   fill: #afb1b8;
 }
 
-.about-work-position {
+.about-work__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

@@ -3,11 +3,11 @@
   padding-bottom: 94px;
 }
 
-.clients-icon {
+.clients-list__icon {
   padding: 16px 32px;
 }
 
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -17,7 +17,7 @@
   margin-bottom: 50px;
 }
 
-.clients-content {
+.clients-list__content {
   display: flex;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -30,8 +30,8 @@
     outline: none;
     border-color: var(--accent-color);
   }
-  &:focus .clients-icon,
-  &:hover .clients-icon {
+  &:focus .clients-list__icon,
+  &:hover .clients-list__icon {
     fill: var(--accent-color);
   }
 }
@@ -42,7 +42,7 @@
   margin-left: -30px;
 }
 
-.clients-container {
+.clients-list__container {
   padding: 0;
   margin-left: 30px;
   width: calc(100% / 6 - 30px);

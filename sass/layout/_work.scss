@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -18,16 +18,16 @@
   margin-left: -30px;
 }
 
-.work-container {
+.work-list__container {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.work-item-wrap {
+.work-list__wrap {
   position: relative;
 }
 
-.work-img-text {
+.work-list__img-text {
   position: absolute;
   top: 224px;
   left: 0;
